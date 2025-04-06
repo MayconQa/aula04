@@ -1,4 +1,5 @@
-texto = "Banana"
+idades = [22, 15, 30, 17, 18]
+idades_validas = [idade for idade in idades if idade >= 18]
 
-for caractere in texto:
-    print(caractere)
+print(idades_validas)
+
